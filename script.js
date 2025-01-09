@@ -1,7 +1,5 @@
 const containerVideos = document.querySelector(".videos__container");
 
-console.log(variavelQueNuncaExistiu);
-
 async function buscarEMostrarVideos() {
   try {
     const busca = await fetch("http://localhost:3000/videos");
