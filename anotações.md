@@ -31,4 +31,6 @@ Trecho retirado da Alura:
     O número da esquerda é a versão maior do projeto. Quando esse número muda, a equipe do pacote pode descontinuar recursos antigos ou modificar recursos existentes. Então, uma mudança nesse número maior requer atenção, pois talvez seja necessário consultar um guia de migração, que normalmente é disponibilizado pela equipe, indicando mudanças necessárias na sintaxe ou em outros códigos, ou algum comando pode não existir mais na nova versão.
 
     Observando como funcionam essas atualizações, quando o número do meio muda, ele sempre reseta o número da direita para 0. Por exemplo, observe a versão 7.3.1. Quando foi para 7.4.0, a versão de correção que estava 1 volta a ser 0. É uma regra que devemos seguir.
+
+    Da mesma forma, ao mudar da versão 7 para 8, todos os números à direita voltam a ser 0. Podemos conferir isso no histórico. Da versão 7.32.0 para a versão 8.0.0, resetou para 0. Isso é o que chamamos de versionamento semântico, uma convenção muito utilizada no mundo do desenvolvimento web, seja no front-end ou no back-end.
     "
