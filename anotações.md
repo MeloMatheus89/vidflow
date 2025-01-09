@@ -34,3 +34,5 @@ Trecho retirado da Alura:
 
     Da mesma forma, ao mudar da versão 7 para 8, todos os números à direita voltam a ser 0. Podemos conferir isso no histórico. Da versão 7.32.0 para a versão 8.0.0, resetou para 0. Isso é o que chamamos de versionamento semântico, uma convenção muito utilizada no mundo do desenvolvimento web, seja no front-end ou no back-end.
     "
+
+- Leitura recomendada: https://www.alura.com.br/artigos/versionamento-semantico-breve-introducao
