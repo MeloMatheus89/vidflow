@@ -8,7 +8,7 @@
 - Após isso também foi necessário executar o comando json-server --watch backend/videos.json para inicializar o json-server
 - Após instalar o ESLint usando o comando npm init @eslint/config@0.4.6 é interessante seguir o passo a passo lendo o que ele está perguntando para não ir na empolgação e cancelar funções que são fundamentais para a aplicação.
 - É interessante criar um gitignore para não subir uma tralha de arquivos para o github de modo desnecessário.
-- Para rodar o ESLint o comando é `npx eslint nome do arquivo a ser testado`;
+- Para rodar o ESLint o comando é `npx eslint <nome do arquivo a ser testado>`;
 - Para rodar o ESlint em todos os arquivos é o comando `npx eslint .`;
 - Existe uma extensão do VSCode para rodar o ESLint de forma nativa e automática. Isso facilita e evita erros manuais (execução mecânica) no projeto. O nome da extensão é: ESLint
 
