@@ -2,8 +2,9 @@ const containerVideos = document.querySelector(".videos__container");
 
 async function buscarEMostrarVideos() {
   try {
-    const busca = await fetch("http://localhost:3000/videos");
-    const videos = await busca.json();
+    const busca = await axios.get("http://localhost:3000/videos");
+
+    const videos = await busca.data;
 
     videos.forEach((video) => {
       if (video.categoria == "") {
